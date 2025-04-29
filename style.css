@@ -1,0 +1,121 @@
+*{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    width: 100vw;
+    height: 2000px;
+}
+.header{
+    width: 1440px;
+    height: 60px;
+    display: flex;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.25);
+}
+.logo-header{
+    width: 180px;
+    height: 60px;
+    background-color: rgb(208, 100, 100);
+}
+.opcoes-header{
+    width: 1080px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.opcoes-1{
+    width: 270px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16;
+    letter-spacing: 3px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 420;
+    font-style: normal;
+    cursor: pointer;
+}
+.opcoes-2{
+    width: 270px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16;
+    letter-spacing: 3px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 420;
+    font-style: normal;
+    cursor: pointer;
+}
+.opcoes-3{
+    width: 270px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16;
+    letter-spacing: 3px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 420;
+    font-style: normal;
+    cursor: pointer;
+}
+.opcoes-4{
+    width: 270px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16;
+    letter-spacing: 3px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 420;
+    font-style: normal;
+    cursor: pointer;
+}
+.pesquisa-login-carrinho{
+    width: 180px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.lupa{
+    width: 30px;
+    height: 30px;
+    background-color: darkolivegreen;
+    cursor: pointer;
+}
+.carrinho{
+    width: 30px;
+    height: 30px;
+    background-color: darksalmon;
+    cursor: pointer;
+}
+.login{
+    width: 30px;
+    height: 30px;
+    background-color: darkgrey;
+    cursor: pointer;
+}
+.carrosel{
+    width: 100vw;
+    height: 720px;
+    margin-top: 20px;
+    background-color: darkcyan;
+    cursor: pointer;
+}
