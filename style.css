@@ -44,7 +44,7 @@ body{
     letter-spacing: 3px;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 420;
+    font-weight: 420g;
     font-style: normal;
     cursor: pointer;
 }
@@ -522,4 +522,43 @@ body{
     background-color: #c4c4c4c6;
     transition: 0.4s;
     transform: scale(1.1);
+}
+.titulo-colecoes{
+    width: 100vw;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    font-size: 26px;
+    letter-spacing: 2px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 420;
+    font-style: normal;
+    cursor: pointer;
+}
+.card-colecoes{
+    width: 100vw;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+.card-1-colecoes{
+    width: 454px;
+    height: 600px;
+    background-color: beige;
+}
+.card-2-colecoes{
+    width: 454px;
+    height: 600px;
+    background-color: beige;
+}
+.card-3-colecoes{
+    width: 454px;
+    height: 600px;
+    background-color: beige;
 }
