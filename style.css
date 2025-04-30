@@ -24,19 +24,18 @@ body{
     background-color: white;
 }
 .logo-header{
-    width: 180px;
+    width: 310px;
     height: 60px;
-    background-color: rgb(208, 100, 100);
 }
 .opcoes-header{
-    width: 1080px;
+    width: 880px;
     height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .opcoes-1{
-    width: 270px;
+    width: 160px;
     height: 60px;
     display: flex;
     justify-content: center;
@@ -50,7 +49,7 @@ body{
     cursor: pointer;
 }
 .opcoes-2{
-    width: 270px;
+    width: 160px;
     height: 60px;
     display: flex;
     justify-content: center;
@@ -64,7 +63,7 @@ body{
     cursor: pointer;
 }
 .opcoes-3{
-    width: 270px;
+    width: 160px;
     height: 60px;
     display: flex;
     justify-content: center;
@@ -78,7 +77,21 @@ body{
     cursor: pointer;
 }
 .opcoes-4{
-    width: 270px;
+    width: 160px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16;
+    letter-spacing: 3px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 420;
+    font-style: normal;
+    cursor: pointer;
+}
+.opcoes-5{
+    width: 160px;
     height: 60px;
     display: flex;
     justify-content: center;
@@ -92,7 +105,7 @@ body{
     cursor: pointer;
 }
 .pesquisa-login-carrinho{
-    width: 180px;
+    width: 310px;
     height: 60px;
     display: flex;
     justify-content: center;
@@ -103,6 +116,7 @@ body{
     width: 26px;
     height: 26px;
     margin-top: 4px;
+    margin-right: 30px;
     background-image:url("/img/lupa.png");
     background-size: cover;
     background-position: center;
@@ -111,6 +125,7 @@ body{
 .carrinho{
     width: 26px;
     height: 26px;
+    margin-right: 30px;
     background-image:url("/img/carrinho-de-compras.png");
     background-size: cover;
     background-position: center;
@@ -131,6 +146,27 @@ body{
     background-image: url(/img/2.png);
     background-size: cover;
     background-position: center;
+    cursor: pointer;
+}
+.cupom{
+    width: 100vw;
+    height: 140px;
+    margin-top: 40px;
+    background-color: #4e4b4b;
+}
+.titulo-mais-vendidos{
+    width: 100vw;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 26px;
+    letter-spacing: 2px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 420;
+    font-style: normal;
     cursor: pointer;
 }
 .secao-1{
@@ -401,6 +437,12 @@ body{
     font-style: normal;
     transition: all 0.4s ease;
 }
+.botao-1:hover{
+    color: white;
+    background-color: #c4c4c4c6;
+    transition: 0.4s;
+    transform: scale(1.1);
+}
 .botao-2{
     width: 200px;
     height: 40px;
@@ -414,8 +456,14 @@ body{
     font-optical-sizing: auto;
     font-style: normal;
     transition: all 0.4s ease;
-
-}.botao-3{
+}
+.botao-2:hover{
+    color: white;
+    background-color: #c4c4c4c6;
+    transition: 0.4s;
+    transform: scale(1.1);
+}
+.botao-3{
     width: 200px;
     height: 40px;
     border: none;
@@ -428,6 +476,12 @@ body{
     font-optical-sizing: auto;
     font-style: normal;
     transition: all 0.4s ease;
+}
+.botao-3:hover{
+    color: white;
+    background-color: #c4c4c4c6;
+    transition: 0.4s;
+    transform: scale(1.1);
 }
 .botao-4{
     width: 200px;
@@ -443,6 +497,12 @@ body{
     font-style: normal;
     transition: all 0.4s ease;
 }
+.botao-4:hover{
+    color: white;
+    background-color: #c4c4c4c6;
+    transition: 0.4s;
+    transform: scale(1.1);
+}
 .botao-5{
     width: 200px;
     height: 40px;
@@ -456,4 +516,10 @@ body{
     font-optical-sizing: auto;
     font-style: normal;
     transition: all 0.4s ease;
+}
+.botao-5:hover{
+    color: white;
+    background-color: #c4c4c4c6;
+    transition: 0.4s;
+    transform: scale(1.1);
 }
