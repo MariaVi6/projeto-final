@@ -10,7 +10,7 @@
 }
 body{
     width: 100vw;
-    height: 2000px;
+    height: 4000px;
 }
 .header{
     width: 1440px;
@@ -95,27 +95,360 @@ body{
     gap: 20px;
 }
 .lupa{
-    width: 30px;
-    height: 30px;
-    background-color: darkolivegreen;
+    width: 26px;
+    height: 26px;
+    margin-top: 4px;
+    background-image:url("/img/lupa.png");
+    background-size: cover;
+    background-position: center;
     cursor: pointer;
 }
 .carrinho{
-    width: 30px;
-    height: 30px;
-    background-color: darksalmon;
+    width: 26px;
+    height: 26px;
+    background-image:url("/img/carrinho-de-compras.png");
+    background-size: cover;
+    background-position: center;
     cursor: pointer;
 }
 .login{
-    width: 30px;
-    height: 30px;
-    background-color: darkgrey;
+    width: 26px;
+    height: 26px;
+    background-image:url("/img/adicionar-usuario.png");
+    background-size: cover;
+    background-position: center;
     cursor: pointer;
 }
 .carrosel{
     width: 100vw;
     height: 720px;
     margin-top: 20px;
-    background-color: darkcyan;
+    background-image: url(/img/2.png);
+    background-size: cover;
+    background-position: center;
     cursor: pointer;
+}
+.secao-1{
+    width: 100vw;
+    height: 460px;
+    margin-top: 40px;
+}
+.card-produtos{
+    width: 100vw;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.card-1{
+    width: 240px;
+    height: 260px;
+    background-color: brown;
+    box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
+}
+.card-2{
+    width: 240px;
+    height: 260px;
+    background-color: brown;
+    box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
+}
+.card-3{
+    width: 240px;
+    height: 260px;
+    background-color: brown;
+    box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
+}
+.card-4{
+    width: 240px;
+    height: 260px;
+    background-color: brown;
+    box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
+}
+.card-5{
+    width: 240px;
+    height: 260px;
+    background-color: brown;
+    box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
+}
+.tipos-produtos{
+    width: 100vw;
+    height: 20px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.tipo-1{
+    width: 240px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+}
+.tipo-2{
+    width: 240px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+}
+.tipo-3{
+    width: 240px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+}
+.tipo-4{
+    width: 240px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+}
+.tipo-5{
+    width: 240px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+}
+.nome-produtos{
+    width: 100vw;
+    height: 40px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.nome-1{
+    width: 240px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: normal;
+}
+.nome-2{
+    width: 240px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: normal;
+}
+.nome-3{
+    width: 240px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: normal;
+}
+.nome-4{
+    width: 240px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: normal;
+}
+.nome-5{
+    width: 240px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: normal;
+}
+.preco-produtos{
+    width: 100vw;
+    height: 40px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.preco-1{
+    width: 240px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: normal;
+}
+.preco-2{
+    width: 240px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: normal;
+}
+.preco-3{
+    width: 240px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: normal;
+}
+.preco-4{
+    width: 240px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: normal;
+}
+.preco-5{
+    width: 240px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: normal;
+}
+.botoes-produtos{
+    width: 100vw;
+    height: 40px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+.botao-1{
+    width: 200px;
+    height: 40px;
+    border: none;
+    font-size: 14px;
+    color: #fff;
+    background-color: #000;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    transition: all 0.4s ease;
+}
+.botao-2{
+    width: 200px;
+    height: 40px;
+    border: none;
+    font-size: 14px;
+    color: #fff;
+    background-color: #000;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    transition: all 0.4s ease;
+
+}.botao-3{
+    width: 200px;
+    height: 40px;
+    border: none;
+    font-size: 14px;
+    color: #fff;
+    background-color: #000;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    transition: all 0.4s ease;
+}
+.botao-4{
+    width: 200px;
+    height: 40px;
+    border: none;
+    font-size: 14px;
+    color: #fff;
+    background-color: #000;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    transition: all 0.4s ease;
+}
+.botao-5{
+    width: 200px;
+    height: 40px;
+    border: none;
+    font-size: 14px;
+    color: #fff;
+    background-color: #000;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    transition: all 0.4s ease;
 }
