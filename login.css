@@ -1,0 +1,100 @@
+/* Resetando margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: 'Nunito', sans-serif; /* Fonte padrão */
+    background-color: #f2f2f2; /* Fundo cinza claro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container do formulário */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* Caixa de login */
+.login-box {
+    background-color: #ffffff; /* Branco */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+/* Estilo do título */
+h2 {
+    font-family: 'Montserrat', sans-serif; /* Fonte Montserrat para o título */
+    color: #00695c; /* Verde escuro */
+    margin-bottom: 20px;
+}
+
+/* Estilo dos grupos de entrada */
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    font-size: 14px;
+    color: #00695c; /* Verde escuro */
+    margin-bottom: 5px;
+    display: block;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.input-group input:focus {
+    border-color: #00695c; /* Verde escuro */
+    outline: none;
+    background-color: #a8d5ba; /* Verde suave */
+}
+
+/* Botão de envio */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #00695c; /* Verde escuro */
+    color: #ffffff; /* Branco */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #004d40; /* Verde escuro mais intenso */
+}
+
+/* Link de esqueci a senha */
+.forgot-password {
+    margin-top: 10px;
+}
+
+.forgot-password a {
+    color: #00695c; /* Verde escuro */
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
