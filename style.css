@@ -10,7 +10,7 @@
 }
 body{
     width: 100vw;
-    height: 6000px;
+    height: 5400px;
 }
 .header{
     width: 1440px;
@@ -171,43 +171,43 @@ body{
 }
 .secao-1{
     width: 100vw;
-    height: 460px;
+    height: 480px;
     margin-top: 40px;
 }
 .card-produtos{
     width: 100vw;
-    height: 260px;
+    height: 280px;
     display: flex;
     justify-content: center;
     gap: 40px;
 }
 .card-1{
     width: 240px;
-    height: 260px;
+    height: 280px;
     background-color: brown;
     box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
 .card-2{
     width: 240px;
-    height: 260px;
+    height: 280px;
     background-color: brown;
     box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
 .card-3{
     width: 240px;
-    height: 260px;
+    height: 280px;
     background-color: brown;
     box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
 .card-4{
     width: 240px;
-    height: 260px;
+    height: 280px;
     background-color: brown;
     box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
 .card-5{
     width: 240px;
-    height: 260px;
+    height: 280px;
     background-color: brown;
     box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
@@ -896,5 +896,113 @@ body{
     height: 620px;
     background-color: cornsilk;
 }
+.forma-pagamentos-home{
+    width: 100vw;
+    height: 280px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.forma-pagamentos-2{
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container-div-descricao-eclac{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.div-descricao1-eclac{
+    width: 148px;
+    height: 140px;
+    text-align: center;
+    background-image: url(/img/Parcelamento.svg);
+    background-position: center;
+    background-size: cover;
+}
+.div-descricao2-eclac{
+    width: 148px;
+    height: 140px;
+    background-image: url(/img/Frete-gratis.svg);
+    background-position: center;
+    background-size: cover;
+}
+.div-descricao3-eclac{
+    width: 148px;
+    height: 140px;
+    background-image: url(/img/Devolucao.svg);
+    background-position: center;
+    background-size: cover;
+}
+.div-descricao4-eclac{
+    width: 148px;
+    height: 140px;
+    background-image: url(/img/Cupom.svg);
+    background-position: center;
+    background-size: cover;
+}
+.div-descricao5-eclac{
+    width: 148px;
+    height: 140px;
+    background-image: url(/img/Entrega-rapida.svg);
+    background-position: center;
+    background-size: cover;
+}
+.div-descricao6-eclac{
+    width: 148px;
+    height: 140px;
+    background-image: url(/img/Cupom-de-aniversario.svg);
+    background-position: center;
+    background-size: cover;
+}
+.container-descricao-eclac{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.descricao-eclac{
+    width: 148px;
+    height: 24px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.75px;
+    margin-top: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.container-descricao2-eclac{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.descricao2-eclac{
+    width: 148px;
+    height: 60px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.75px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.footer{
+    width: 100vw;
+    height: 400px;
+    margin-top: 40px;
+    background-color: rgb(71, 61, 80);
+}
+
 
 
