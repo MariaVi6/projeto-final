@@ -10,7 +10,7 @@
 }
 body{
     width: 100vw;
-    height: 4000px;
+    height: 6000px;
 }
 .header{
     width: 1440px;
@@ -544,7 +544,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 40px;
     gap: 20px;
 }
 .card-1-colecoes{
@@ -562,3 +562,339 @@ body{
     height: 600px;
     background-color: beige;
 }
+.titulo-nao-sei{
+    width: 100vw;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    font-size: 26px;
+    letter-spacing: 2px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 420;
+    font-style: normal;
+    cursor: pointer;
+}
+.secao-2{
+    width: 100vw;
+    height: 530px;
+    margin-top: 40px;
+}
+.card-produtos-2{
+    width: 100vw;
+    height: 340px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.card-6{
+    width: 300px;
+    height: 340px;
+    background-color: chocolate;
+    box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
+}
+.card-7{
+    width: 300px;
+    height: 340px;
+    background-color: chocolate;
+    box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
+}
+.card-8{
+    width: 300px;
+    height: 340px;
+    background-color: chocolate;
+    box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
+}
+.card-9{
+    width: 300px;
+    height: 340px;
+    background-color: chocolate;
+    box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
+}
+.tipo-6{
+    width: 300px;
+    height: 20px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+}
+.tipo-7{
+    width: 300px;
+    height: 20px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+}
+.tipo-8{
+    width: 300px;
+    height: 20px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+}
+.tipo-9{
+    width: 300px;
+    height: 20px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+}
+.nome-6{
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: normal;
+}
+.nome-7{
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: normal;
+}
+.nome-8{
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: normal;
+}
+.nome-9{
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: normal;
+}
+.preco-6{
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: normal;
+}
+.preco-7{
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: normal;
+}
+.preco-8{
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: normal;
+}
+.preco-9{
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: normal;
+}
+.botoes-produtos-2{
+    width: 100vw;
+    height: 40px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+.botao-6{
+    width: 260px;
+    height: 40px;
+    border: none;
+    font-size: 14px;
+    color: #fff;
+    background-color: #000;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    transition: all 0.4s ease;
+}
+.botao-6:hover{
+    color: white;
+    background-color: #c4c4c4c6;
+    transition: 0.4s;
+    transform: scale(1.1);
+}
+.botao-7{
+    width: 260px;
+    height: 40px;
+    border: none;
+    font-size: 14px;
+    color: #fff;
+    background-color: #000;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    transition: all 0.4s ease;
+}
+.botao-7:hover{
+    color: white;
+    background-color: #c4c4c4c6;
+    transition: 0.4s;
+    transform: scale(1.1);
+}
+.botao-8{
+    width: 260px;
+    height: 40px;
+    border: none;
+    font-size: 14px;
+    color: #fff;
+    background-color: #000;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    transition: all 0.4s ease;
+}
+.botao-8:hover{
+    color: white;
+    background-color: #c4c4c4c6;
+    transition: 0.4s;
+    transform: scale(1.1);
+}
+.botao-9{
+    width: 260px;
+    height: 40px;
+    border: none;
+    font-size: 14px;
+    color: #fff;
+    background-color: #000;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    transition: all 0.4s ease;
+}
+.botao-9:hover{
+    color: white;
+    background-color: #c4c4c4c6;
+    transition: 0.4s;
+    transform: scale(1.1);
+}
+.titulo-bazar{
+    width: 100vw;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    font-size: 26px;
+    letter-spacing: 2px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 420;
+    font-style: normal;
+    cursor: pointer;
+}
+.secao-3{
+    width: 100vw;
+    height: 620px;
+    margin-top: 40px;
+}
+.card-bazar{
+    width: 100vw;
+    height: 620px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.card-bazar-1{
+    width: 680px;
+    height: 620px;
+    background-color: cornsilk;
+}
+.card-bazar-2{
+    width: 680px;
+    height: 620px;
+    background-color: cornsilk;
+}
+
+
