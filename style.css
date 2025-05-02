@@ -550,17 +550,23 @@ body{
 .card-1-colecoes{
     width: 454px;
     height: 600px;
-    background-color: beige;
+    background-image: url(/img/Jaqueta\ Preta\ Listrada.jpg);
+    background-position: center;
+    background-size: cover;
 }
 .card-2-colecoes{
     width: 454px;
     height: 600px;
-    background-color: beige;
+    background-image: url(/img/pexels-cottonbro-6800671.jpg);
+    background-position: center;
+    background-size: cover;
 }
 .card-3-colecoes{
     width: 454px;
     height: 600px;
-    background-color: beige;
+    background-image: url(/img/pexels-cottonbro-8541548.jpg);
+    background-position: bottom;
+    background-size: cover;
 }
 .titulo-nao-sei{
     width: 100vw;
@@ -625,49 +631,66 @@ body{
 .card-10{
     width: 300px;
     height: 340px;
-    background-color: chocolate;
+    background-image: url(/img/Chapeu-tenis.jpg);
+    background-position: top;
+    background-size: cover;
     box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
 .card-11{
     width: 300px;
     height: 340px;
-    background-color: chocolate;
+    background-image: url(/img/Tenis-esportivo-branco.jpg);
+    background-position: center;
+    background-size: cover;
     box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
 .card-12{
     width: 300px;
     height: 340px;
-    background-color: chocolate;
+    background-image: url(/img/Vestido-azul-longo.jpg);
+    background-position: center;
+    background-size: cover;
     box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
 .card-13{
     width: 300px;
     height: 340px;
-    background-color: chocolate;
+    background-image: url(/img/pexels-cottonbro-5740815.jpg);
+    background-position: left;
+    background-size: cover;
     box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
 .card-14{
     width: 300px;
     height: 340px;
-    background-color: chocolate;
+    background-image: url(/img/Anel\ Azul.jpg);
+    background-position: center;
+    background-size: cover;
     box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
 .card-15{
     width: 300px;
     height: 340px;
-    background-color: chocolate;
+    background-image: url(/img/Bolsa\ de\ Mão.jpg);
+    background-position: center;
+    background-size: cover;
     box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
 .card-16{
     width: 300px;
     height: 340px;
-    background-color: chocolate;
+    background-image: url(/img/Colar\ Verde.jpg);
+    background-position: center;
+    background-size: cover;
     box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
 .card-17{
     width: 300px;
     height: 340px;
-    background-color: chocolate;
+    background-image: url(/img/Brinco\ Verde.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
 .tipo-6{
     width: 300px;
