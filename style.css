@@ -602,6 +602,7 @@ body{
     background-position: center;
     background-size: cover;
     box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
+    cursor: pointer;
 }
 .card-7{
     width: 300px;
@@ -610,6 +611,7 @@ body{
     background-position: center;
     background-size: cover;
     box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
+    cursor: pointer;
 }
 .card-8{
     width: 300px;
@@ -618,6 +620,7 @@ body{
     background-position: center;
     background-size: cover;
     box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
+    cursor: pointer;
 }
 .card-9{
     width: 300px;
@@ -626,6 +629,7 @@ body{
     background-position: center;
     background-size: cover;
     box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
+    cursor: pointer;
 }
 .card-10{
     width: 300px;
@@ -634,6 +638,7 @@ body{
     background-position: top;
     background-size: cover;
     box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
+    cursor: pointer;
 }
 .card-11{
     width: 300px;
@@ -642,6 +647,7 @@ body{
     background-position: center;
     background-size: cover;
     box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
+    cursor: pointer;
 }
 .card-12{
     width: 300px;
@@ -650,6 +656,7 @@ body{
     background-position: center;
     background-size: cover;
     box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
+    cursor: pointer;
 }
 .card-13{
     width: 300px;
@@ -658,6 +665,7 @@ body{
     background-position: left;
     background-size: cover;
     box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
+    cursor: pointer;
 }
 .card-14{
     width: 300px;
@@ -666,6 +674,7 @@ body{
     background-position: center;
     background-size: cover;
     box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
+    cursor: pointer;
 }
 .card-15{
     width: 300px;
@@ -674,6 +683,7 @@ body{
     background-position: center;
     background-size: cover;
     box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
+    cursor: pointer;
 }
 .card-16{
     width: 300px;
@@ -682,6 +692,7 @@ body{
     background-position: center;
     background-size: cover;
     box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
+    cursor: pointer;
 }
 .card-17{
     width: 300px;
@@ -690,6 +701,7 @@ body{
     background-position: center;
     background-size: cover;
     box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
+    cursor: pointer;
 }
 .tipo-6{
     width: 300px;
@@ -966,12 +978,16 @@ body{
 .card-bazar-1{
     width: 680px;
     height: 620px;
-    background-color: cornsilk;
+    background-image: url(/img/pexels-cottonbro-7871157.jpg);
+    background-position: center;
+    background-size: cover;
 }
 .card-bazar-2{
     width: 680px;
     height: 620px;
-    background-color: cornsilk;
+    background-image: url(/img/pexels-cottonbro-7872870.jpg);
+    background-position: center;
+    background-size: cover;
 }
 .forma-pagamentos-home{
     width: 100vw;
@@ -1078,8 +1094,197 @@ body{
     width: 100vw;
     height: 400px;
     margin-top: 40px;
-    background-color: rgb(71, 61, 80);
+    background-color: #ffffff;
+}
+.div-footer{
+    width: 100vw;
+    height: 320px;
+    margin-top: 40px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.logo-informacoes-footer{
+    width: 280px;
+    height: 280px;
+    background-color: darksalmon;
+}
+.informacoes-footer{
+    width: 210px;
+    height: 305px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.titulo-informacoes-footer{
+    width: 210px;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    letter-spacing: 3px;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 420;
+    font-style: normal;
+    cursor: pointer;
+}
+.informacoes{
+    width: 210px;
+    height: 40px;
+    font-size: 14px;
+    letter-spacing: 0.75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 420;
+    font-style: normal;
+    cursor: pointer;
+}
+.categorias-footer{
+    width: 210px;
+    height: 305px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.titulo-categorias-footer{
+    width: 210px;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    letter-spacing: 3px;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 420;
+    font-style: normal;
+    cursor: pointer;
+}
+.categorias{
+    width: 210px;
+    height: 40px;
+    font-size: 14px;
+    letter-spacing: 0.75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 420;
+    font-style: normal;
+    cursor: pointer;
+}
+.contato-footer{
+    width: 280px;
+    height: 305px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.titulo-contato-footer{
+    width: 280px;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    letter-spacing: 3px;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 420;
+    font-style: normal;
+    cursor: pointer;
+}
+.email-footer{
+    width: 280px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 420;
+    font-style: normal;
+    cursor: pointer;
+}
+.telefone-footer{
+    width: 280px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 420;
+    font-style: normal;
+    cursor: pointer;
+}
+.rede-sociais-footer{
+    width: 280px;
+    height: 30px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.facebook{
+    width: 30px;
+    height: 30px;
+    background-image: url(/img/facebook.png);
+    background-size: cover;
+    background-position: center;
+}
+.instagram{
+    width: 30px;
+    height: 30px;
+    background-image: url(/img/instagram.png);
+    background-size: cover;
+    background-position: center;
+}
+.pinterest{
+    width: 30px;
+    height: 30px;
+    background-image: url(/img/logotipo-do-pinterest.png);
+    background-size: cover;
+    background-position: center;
 }
 
+.donos-site{
+    width: 100vw;
+    height: 40px;
+    margin-top: 20px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.75px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: black;
+}
 
 
