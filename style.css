@@ -143,9 +143,9 @@ body{
     width: 100vw;
     height: 720px;
     margin-top: 20px;
-    background-image: url(/img/2.png);
+    background-image: url(/img/pexels-cottonbro-6770027.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: top;
     cursor: pointer;
 }
 .cupom{
@@ -171,43 +171,34 @@ body{
 }
 .secao-1{
     width: 100vw;
-    height: 480px;
+    height: 540px;
     margin-top: 40px;
 }
 .card-produtos{
     width: 100vw;
-    height: 280px;
+    height: 340px;
     display: flex;
     justify-content: center;
     gap: 40px;
 }
 .card-1{
-    width: 240px;
-    height: 280px;
+    width: 300px;
+    height: 340px;
     box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
 .card-2{
-    width: 240px;
-    height: 280px;
-    background-color: brown;
+    width: 300px;
+    height: 340px;
     box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
 .card-3{
-    width: 240px;
-    height: 280px;
-    background-color: brown;
+    width: 300px;
+    height: 340px;
     box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
 .card-4{
-    width: 240px;
-    height: 280px;
-    background-color: brown;
-    box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
-}
-.card-5{
-    width: 240px;
-    height: 280px;
-    background-color: brown;
+    width: 300px;
+    height: 340px;
     box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
 .tipos-produtos{
@@ -219,7 +210,7 @@ body{
     gap: 40px;
 }
 .tipo-1{
-    width: 240px;
+    width: 300px;
     height: 20px;
     display: flex;
     align-items: center;
@@ -231,7 +222,7 @@ body{
     font-style: normal;
 }
 .tipo-2{
-    width: 240px;
+    width: 300px;
     height: 20px;
     display: flex;
     align-items: center;
@@ -243,7 +234,7 @@ body{
     font-style: normal;
 }
 .tipo-3{
-    width: 240px;
+    width: 300px;
     height: 20px;
     display: flex;
     align-items: center;
@@ -255,19 +246,7 @@ body{
     font-style: normal;
 }
 .tipo-4{
-    width: 240px;
-    height: 20px;
-    display: flex;
-    align-items: center;
-    font-size: 12px;
-    letter-spacing: 1px;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-family: "Montserrat", sans-serif;
-    font-style: normal;
-}
-.tipo-5{
-    width: 240px;
+    width: 300px;
     height: 20px;
     display: flex;
     align-items: center;
@@ -287,7 +266,7 @@ body{
     gap: 40px;
 }
 .nome-1{
-    width: 240px;
+    width: 300px;
     height: 40px;
     display: flex;
     align-items: center;
@@ -299,7 +278,7 @@ body{
     font-weight: normal;
 }
 .nome-2{
-    width: 240px;
+    width: 300px;
     height: 40px;
     display: flex;
     align-items: center;
@@ -311,7 +290,7 @@ body{
     font-weight: normal;
 }
 .nome-3{
-    width: 240px;
+    width: 300px;
     height: 40px;
     display: flex;
     align-items: center;
@@ -323,19 +302,7 @@ body{
     font-weight: normal;
 }
 .nome-4{
-    width: 240px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    font-size: 18px;
-    letter-spacing: 1px;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-weight: normal;
-}
-.nome-5{
-    width: 240px;
+    width: 300px;
     height: 40px;
     display: flex;
     align-items: center;
@@ -355,7 +322,7 @@ body{
     gap: 40px;
 }
 .preco-1{
-    width: 240px;
+    width: 300px;
     height: 40px;
     display: flex;
     align-items: center;
@@ -367,7 +334,7 @@ body{
     font-weight: normal;
 }
 .preco-2{
-    width: 240px;
+    width: 300px;
     height: 40px;
     display: flex;
     align-items: center;
@@ -379,7 +346,7 @@ body{
     font-weight: normal;
 }
 .preco-3{
-    width: 240px;
+    width: 300px;
     height: 40px;
     display: flex;
     align-items: center;
@@ -391,19 +358,7 @@ body{
     font-weight: normal;
 }
 .preco-4{
-    width: 240px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    font-size: 18px;
-    letter-spacing: 2px;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-weight: normal;
-}
-.preco-5{
-    width: 240px;
+    width: 300px;
     height: 40px;
     display: flex;
     align-items: center;
@@ -423,7 +378,7 @@ body{
     gap: 80px;
 }
 .botao-1{
-    width: 200px;
+    width: 260px;
     height: 40px;
     border: none;
     font-size: 14px;
@@ -443,7 +398,7 @@ body{
     transform: scale(1.1);
 }
 .botao-2{
-    width: 200px;
+    width: 260px;
     height: 40px;
     border: none;
     font-size: 14px;
@@ -463,7 +418,7 @@ body{
     transform: scale(1.1);
 }
 .botao-3{
-    width: 200px;
+    width: 260px;
     height: 40px;
     border: none;
     font-size: 14px;
@@ -483,7 +438,7 @@ body{
     transform: scale(1.1);
 }
 .botao-4{
-    width: 200px;
+    width: 260px;
     height: 40px;
     border: none;
     font-size: 14px;
@@ -497,26 +452,6 @@ body{
     transition: all 0.4s ease;
 }
 .botao-4:hover{
-    color: white;
-    background-color: #c4c4c4c6;
-    transition: 0.4s;
-    transform: scale(1.1);
-}
-.botao-5{
-    width: 200px;
-    height: 40px;
-    border: none;
-    font-size: 14px;
-    color: #fff;
-    background-color: #000;
-    letter-spacing: 1px;
-    cursor: pointer;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    transition: all 0.4s ease;
-}
-.botao-5:hover{
     color: white;
     background-color: #c4c4c4c6;
     transition: 0.4s;
@@ -1030,6 +965,10 @@ body{
 .card-bazar-1{
     width: 680px;
     height: 620px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     background-image: url(/img/pexels-cottonbro-7871157.jpg);
     background-position: center;
     background-size: cover;
@@ -1037,9 +976,52 @@ body{
 .card-bazar-2{
     width: 680px;
     height: 620px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     background-image: url(/img/pexels-cottonbro-7872870.jpg);
     background-position: center;
     background-size: cover;
+}
+.titulo-card-bazar{
+    width: 640px;
+    height: 80px;
+    font-size: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    margin-top: 240px;
+    background-color: #6d6d6d00;
+    letter-spacing: 4px;
+    font-family: "Syncopate", sans-serif;
+    font-weight: 420;
+    font-style: normal;
+}
+.botao-colecao-card{
+    width: 260px;
+    height: 40px;
+    border: none;
+    margin-top: 160px;
+    font-size: 14px;
+    color: #000000;
+    border-radius: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #ffffff7b;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 420;
+    font-style: normal;
+    transition: all 0.4s ease;
+}
+.botao-colecao-card:hover{
+    background-color: #0000007b;
+    color: white;
+    transition: 0.4s;
+    transform: scale(1.1);
 }
 .forma-pagamentos-home{
     width: 100vw;
@@ -1142,6 +1124,9 @@ body{
     font-optical-sizing: auto;
     font-style: normal;
 }
+
+/* FOOTER HOME E PRODUTOS --------------------------------------------------------------------------------*/
+
 .footer{
     width: 100vw;
     height: 400px;
@@ -1323,7 +1308,6 @@ body{
     background-size: cover;
     background-position: center;
 }
-
 .donos-site{
     width: 100vw;
     height: 40px;
@@ -1348,11 +1332,13 @@ body{
     width: 100vw;
     height: 400px;
     margin-top: 20px;
-    background-color: #4e4b4b;
+    background-image: url(img/pexels-cottonbro-6221092.jpg);
+    background-size: cover;
+    background-position: right;
 }
 .div-produtos{
     width: 100vw;
-    height: 3340px;
+    height: 3600px;
     display: flex;
     justify-content: center;
     margin-top: 40px;
@@ -1361,44 +1347,255 @@ body{
 }
 .menu-produtos{
     width: 400px;
-    height: 1000px;
-    background-color: darksalmon;
+    height: 980px;
+    font-size: 16px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    letter-spacing: 0.75px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
+.titulo-filtro-produtos{
+    width: 360px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-top: 10px;
+    letter-spacing: 0.75px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.linha-filtro-produtos{
+    width: 360px;
+    background-color: black;
+    border: 0.80px solid rgb(0, 0, 0);
+}
+.subtitulo-filtro-produtos{
+    width: 360px;
+    height: 20px;
+    margin-top: 20px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.75px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.div-checbox-filtro{
+    width: 360px;
+    height: 180px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.checkbox-label-filtro{
+    width: 360px;
+    height: 40px;
+}
+.checkbox{
+    appearance: none;
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    margin-left: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    position: relative;
+}
+.label{
+    width: 340px;
+    height: 20px;
+    letter-spacing: 0.75px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.checkbox:checked::before {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 1px;
+    width: 5px;
+    height: 10px;
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+/*PRODUTOS ---------------------------------------------------------------------------------------------*/
+
 .produtos{
     width: 1000px;
-    height: 3340px;
+    height: 3600px;
 }
 .secao-4{
     width: 1000px;
-    height: 520px;
+    height: 560px;
 }
 .secao-5{
     width: 1000px;
-    height: 520px;
+    height: 560px;
     margin-top: 40px;
 }
+
 .card-produtos-3{
     width: 1000;
-    height: 320px;
+    height: 360px;
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 30px;
 }
 .card-18{
-    width: 290px;
-    height: 320px;
+    width: 301px;
+    height: 360px;
+    background-image: url(img/Jaqueta\ Preta\ Listrada.jpg);
+    background-size: cover;
+    background-position: center;
     box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
 .card-19{
-    width: 290px;
-    height: 320px;
-    background-color: brown;
+    width: 300px;
+    height: 360px;
+    background-image: url(img/Jaqueta\ Off-White.jpg);
+    background-size: cover;
+    background-position: center;
     box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
 .card-20{
-    width: 290px;
-    height: 320px;
-    background-color: brown;
+    width: 300px;
+    height: 360px;
+    background-image: url(img/Sobretudo\ Bege.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
+}
+.card-21{
+    width: 300px;
+    height: 360px;
+    background-image: url(img/Crooped-vermelho.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
+}
+.card-22{
+    width: 300px;
+    height: 360px;
+    background-image: url(img/Tenis-branco.jpg);
+    background-size: cover;
+    background-position: bottom;
+    box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
+}
+.card-23{
+    width: 300px;
+    height: 360px;
+    background-image: url(img/Calça-jeans-coraçao.jpg);
+    background-size: cover;
+    background-position: bottom;
+    box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
+}
+.card-24{
+    width: 300px;
+    height: 360px;
+    background-image: url(img/Sobretudo\ Listrado.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
+}
+.card-25{
+    width: 300px;
+    height: 360px;
+    background-image: url(img/Sobretudo\ Preto.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
+}
+.card-26{
+    width: 300px;
+    height: 360px;
+    background-image: url(img/Sobretudo-Verde.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
+}
+.card-27{
+    width: 300px;
+    height: 360px;
+    background-image: url(img/Chapeu-tenis.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
+}
+.card-28{
+    width: 300px;
+    height: 360px;
+    background-image: url(img/Tenis-esportivo-branco.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
+}
+.card-29{
+    width: 300px;
+    height: 360px;
+    background-image: url(img/Vestido-azul-longo.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
+}
+.card-30{
+    width: 300px;
+    height: 360px;
+    background-image: url(img/Acessorios1-brinco.jpg);
+    background-size: cover;
+    background-position: top;
+    box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
+}
+.card-31{
+    width: 300px;
+    height: 360px;
+    background-image: url(img/Acessorios2-colar.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
+}
+.card-32{
+    width: 300px;
+    height: 360px;
+    background-image: url(img/Acessorios3-aneis.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
+}
+.card-33{
+    width: 300px;
+    height: 360px;
+    background-image: url(img/Anel\ Azul.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
+}
+.card-34{
+    width: 300px;
+    height: 360px;
+    background-image: url(img/Colar\ Verde.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
+}
+.card-35{
+    width: 300px;
+    height: 360px;
+    background-image: url(img/Brinco\ Verde.jpg);
+    background-size: cover;
+    background-position: center;
     box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
 .tipos-produtos-3{
@@ -1407,10 +1604,10 @@ body{
     margin-top: 10px;
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 30px;
 }
 .tipo-10{
-    width: 290px;
+    width: 300px;
     height: 20px;
     display: flex;
     align-items: center;
@@ -1422,7 +1619,7 @@ body{
     font-style: normal;
 }
 .tipo-11{
-    width: 290px;
+    width: 300px;
     height: 20px;
     display: flex;
     align-items: center;
@@ -1434,7 +1631,7 @@ body{
     font-style: normal;
 }
 .tipo-12{
-    width: 290px;
+    width: 300px;
     height: 20px;
     display: flex;
     align-items: center;
@@ -1451,10 +1648,10 @@ body{
     margin-top: 10px;
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 30px;
 }
 .nome-10{
-    width: 290px;
+    width: 300px;
     height: 40px;
     display: flex;
     align-items: center;
@@ -1466,7 +1663,7 @@ body{
     font-weight: normal;
 }
 .nome-11{
-    width: 290px;
+    width: 300px;
     height: 40px;
     display: flex;
     align-items: center;
@@ -1478,7 +1675,7 @@ body{
     font-weight: normal;
 }
 .nome-12{
-    width: 290px;
+    width: 300px;
     height: 40px;
     display: flex;
     align-items: center;
@@ -1495,10 +1692,10 @@ body{
     margin-top: 10px;
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 30px;
 }
 .preco-10{
-    width: 290px;
+    width: 300px;
     height: 40px;
     display: flex;
     align-items: center;
@@ -1510,7 +1707,7 @@ body{
     font-weight: normal;
 }
 .preco-11{
-    width: 290px;
+    width: 300px;
     height: 40px;
     display: flex;
     align-items: center;
@@ -1522,7 +1719,7 @@ body{
     font-weight: normal;
 }
 .preco-12{
-    width: 290px;
+    width: 300px;
     height: 40px;
     display: flex;
     align-items: center;
@@ -1539,10 +1736,10 @@ body{
     margin-top: 20px;
     display: flex;
     justify-content: center;
-    gap: 80px;
+    gap: 70px;
 }
 .botao-10{
-    width: 250px;
+    width: 260px;
     height: 40px;
     border: none;
     font-size: 14px;
@@ -1562,7 +1759,7 @@ body{
     transform: scale(1.1);
 }
 .botao-11{
-    width: 250px;
+    width: 260px;
     height: 40px;
     border: none;
     font-size: 14px;
@@ -1582,7 +1779,7 @@ body{
     transform: scale(1.1);
 }
 .botao-12{
-    width: 250px;
+    width: 260px;
     height: 40px;
     border: none;
     font-size: 14px;
@@ -1601,3 +1798,396 @@ body{
     transition: 0.4s;
     transform: scale(1.1);
 }
+/* DESCRICAO - DETALHADA DOS PRODUTOS DA PÁGINA -  HOME -----------------------------------------------------------------------*/
+
+/* 1 - LINHA - PRODUTO - 1 ----------------------------------------------------------------------------------------------------*/
+
+.descricao{
+    width: 100vw;
+    height: 720px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.imgs-produto{
+    width: 700px;
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.img-1-produto{
+    width: 700px;
+    height: 720px;
+    display: flex;
+    gap: 10px;
+}
+.img-1-53{
+    width: 345px;
+    height: 720px;
+    background-image: url(img/Jaqueta\ Preta\ Listrada.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.img-1-54{
+    width: 345px;
+    height: 720px;
+    background-image: url(img/Jaqueta\ Off-White.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.img-2-26-produto{
+    width: 700px;
+    height: 928px;
+    background-image: url(/img/Sobretudo\ Bege.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.descricao-escrita-produto{
+    width: 700px;
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+}
+.titulo-produto{
+    width: 636px;
+    height: 40px;
+    font-size: 32px;
+    letter-spacing: 4px;
+    margin: 20px 0px 0px  32px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 460;
+}
+.ref-produto{
+    width: 636px;
+    height: 20px;
+    font-size: 12px;
+    letter-spacing: 4px;
+    margin: 20px 2px 0px  32px;
+    color: #a0a0a0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 460;
+}
+.div-avaliacao-produto{
+    width: 636px;
+    height: 40px;
+    margin: 10px 0px 0px 32px;
+    display: flex;
+    gap: 10px;
+}
+.avaliacao-produto{
+    width: 160px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.estrela-produto{
+    width: 18px;
+    height: 18px;
+}
+.avaliacao2-produto{
+    width: 280px;
+    height: 40px;
+    margin-top: 2px;
+    font-size: 16px;
+    letter-spacing: 3px;
+    display: flex;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 450;
+    cursor: pointer;
+}
+.precos-produto{
+    width: 632px;
+    height: 40px;
+    display: flex;
+    margin: 10px 0px 0px 32px;
+    gap: 10px;
+}
+.preco-produto{
+    width: 156px;
+    height: 40px;
+    font-size: 28px;
+    margin-bottom: 0;
+    letter-spacing: 4px;
+    display: flex;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 460;
+}
+.preco2-produto{
+    width: 156px;
+    height: 40px;
+    font-size: 20px;
+    margin-bottom: 0;
+    letter-spacing: 4px;
+    display: flex;
+    align-items: center;
+    color: #686c78;
+    text-decoration-line: line-through;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 460;
+}
+.titulo-descricao2-produto{
+    width: 632px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: #a0a0a0; 
+    margin: 26px 0px 0px 32px;
+    letter-spacing: 3px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 460;
+}
+.descricao3-produto{
+    width: 636px;
+    height: 160px;
+    margin: 10px 0px 0px 32px;
+    text-align: justify;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    letter-spacing: 2px;
+    line-height: 38px;
+}
+.titulo-tamanhos{
+    width: 636px;
+    height: 30px;
+    font-size: 12px;
+    color: #a0a0a0; 
+    margin: 26px 0px 0px 32px;
+    letter-spacing: 3px;
+    display: flex;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 460;
+}
+.div-tamanhos{
+    width: 636px;
+    height: 80px;
+    margin: 10px 0px 0px 32px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.tamanhos{
+    width: 60px;
+    height: 60px;
+    font-size: 16px;
+    letter-spacing: 0.80px;
+    background-color: transparent;
+    color: black;
+    border: 2px solid #c0c0c0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.tamanhos:hover{
+    transition: 0.5s;
+    border: 2px solid #5b5b5b;
+}
+.titulo-cor-descricao2{
+    width: 110px;
+    height: 20px;
+    font-size: 12px;
+    margin: 26px 0px 0px 36px;
+    color: #a0a0a0; 
+    letter-spacing: 3px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 460;
+}
+.titulos-descricao2{
+    width: 632px;
+    height: 20px;
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 460;
+  }
+.cor-quantidade-produto{
+    width: 632px;
+    height: 48px;
+    margin: 26px 0px 0px 36px;
+    display: flex;
+    align-items: center;
+    gap: 120px;
+}
+.div18-cor-produto{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #5f97e2b4;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.quantidade-produto{
+    appearance: none;
+    width: 100px;
+    height: 40px;
+    border: none;
+    margin-top: 20px;
+}
+.button2{
+    width: 636px;
+    height: 48px;
+    margin: 45px 0px 0px 32px;
+    border: none;
+    color: white;
+    background-color: #000;
+    letter-spacing: 4px;
+}
+.imagem-frete-produtos{
+    width: 100vw;
+    height: 948px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.frete{
+    width: 700px;
+    height: 928px;
+}
+.titulo-frete{
+    width: 636px;
+    height: 40px;
+    font-size: 32px;
+    margin: 20px 0px 0px 32px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 4px;
+}
+.subtitulo-frete{
+    width: 636px;
+    height: 20px;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 10px 0px 0px 32px;
+    letter-spacing: 3px;
+    color: #a0a0a0;
+}
+.input-button-frete{
+    width: 635px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin: 20px 0px 0px 32px;
+    gap: 20px;
+}
+.input-frete{
+    width: 500px;
+    height: 48px;
+    font-size: 14px;
+    color: #000;
+    border: 2px solid #afafaf;
+    letter-spacing: 3px;
+    padding-left: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.button-frete{
+    width: 136px;
+    height: 40px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #000;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.pesquisa-para-frete{
+    width: 636px;
+    height: 20px;
+    font-size: 14px;
+    letter-spacing: 3px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 460;
+    margin: 20px 0px 0px 32px;
+    color: #000000;
+}
+.vendedor-frete{
+    width: 636px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px 0px 32px;
+    margin-bottom: 40px;
+    font-size: 14px;
+    letter-spacing: 3px;
+    background-color: #eaeaea;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 460;
+}
+.linhas-frete{
+    width: 636px;
+    margin: 20px 0px 0px 32px;
+}
+.titulos-descricao-frete{
+    width: 636px;
+    height: 40px;
+    font-size: 18px;
+    color: #a0a0a0;
+    margin: 20px 0px 0px 32px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 3px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.textos-frete{
+    width: 636px;
+    height: 60px;
+    font-size: 14px;
+    color: #353535;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: justify;
+    font-weight: 460;
+    letter-spacing: 3px;
+    line-height: 26px;
+    margin: 20px 0px 0px 32px;
+}
+.tabela-tamanhos{
+    width: 100vw;
+    height: 400px;
+    background-image: url(/src/image/Tabelas-Medidas-Eclac-Boutique-14.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
