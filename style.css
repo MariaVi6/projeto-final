@@ -1798,10 +1798,15 @@ body{
     transition: 0.4s;
     transform: scale(1.1);
 }
+
 /* DESCRICAO - DETALHADA DOS PRODUTOS DA PÁGINA -  HOME -----------------------------------------------------------------------*/
 
 /* 1 - LINHA - PRODUTO - 1 ----------------------------------------------------------------------------------------------------*/
 
+.descricao-produtos{
+    width: 100vw;
+    height: 2128px;
+}
 .descricao{
     width: 100vw;
     height: 720px;
@@ -1822,24 +1827,24 @@ body{
     display: flex;
     gap: 10px;
 }
-.img-1-53{
+.img-1-1{
     width: 345px;
     height: 720px;
     background-image: url(img/Jaqueta\ Preta\ Listrada.jpg);
     background-position: center;
     background-size: cover;
 }
-.img-1-54{
+.img-1-2{
     width: 345px;
     height: 720px;
-    background-image: url(img/Jaqueta\ Off-White.jpg);
+    background-image: url(img/1.1-jaqueta-preta-listrada.jpg);
     background-position: center;
     background-size: cover;
 }
-.img-2-26-produto{
+.img-2-1-produto{
     width: 700px;
     height: 928px;
-    background-image: url(/img/Sobretudo\ Bege.jpg);
+    background-image: url(/img/1.2-jaqueta-preta-listrada.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -1849,17 +1854,6 @@ body{
     display: flex;
     flex-direction: column;
 }
-.titulo-produto{
-    width: 636px;
-    height: 40px;
-    font-size: 32px;
-    letter-spacing: 4px;
-    margin: 20px 0px 0px  32px;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-weight: 460;
-}
 .ref-produto{
     width: 636px;
     height: 20px;
@@ -1867,6 +1861,17 @@ body{
     letter-spacing: 4px;
     margin: 20px 2px 0px  32px;
     color: #a0a0a0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 460;
+}
+.titulo-produto{
+    width: 636px;
+    height: 40px;
+    font-size: 32px;
+    letter-spacing: 4px;
+    margin: 20px 0px 0px  32px;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -1886,29 +1891,11 @@ body{
     align-items: center;
     gap: 10px;
 }
-.estrela-produto{
-    width: 18px;
-    height: 18px;
-}
-.avaliacao2-produto{
-    width: 280px;
-    height: 40px;
-    margin-top: 2px;
-    font-size: 16px;
-    letter-spacing: 3px;
-    display: flex;
-    align-items: center;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-weight: 450;
-    cursor: pointer;
-}
 .precos-produto{
     width: 632px;
     height: 40px;
     display: flex;
-    margin: 10px 0px 0px 32px;
+    margin: 20px 0px 0px 32px;
     gap: 10px;
 }
 .preco-produto{
@@ -1980,17 +1967,17 @@ body{
     font-weight: 460;
 }
 .div-tamanhos{
-    width: 636px;
+    width: 668px;
     height: 80px;
     margin: 10px 0px 0px 32px;
     display: flex;
     align-items: center;
-    gap: 14px;
+    gap: 20px;
 }
 .tamanhos{
-    width: 60px;
-    height: 60px;
-    font-size: 16px;
+    width: 48px;
+    height: 48px;
+    font-size: 14px;
     letter-spacing: 0.80px;
     background-color: transparent;
     color: black;
@@ -2008,7 +1995,7 @@ body{
     width: 110px;
     height: 20px;
     font-size: 12px;
-    margin: 26px 0px 0px 36px;
+    margin: 26px 13px 0px 36px;
     color: #a0a0a0; 
     letter-spacing: 3px;
     font-family: "Montserrat", sans-serif;
@@ -2024,7 +2011,7 @@ body{
     font-optical-sizing: auto;
     font-style: normal;
     font-weight: 460;
-  }
+}
 .cor-quantidade-produto{
     width: 632px;
     height: 48px;
@@ -2033,11 +2020,11 @@ body{
     align-items: center;
     gap: 120px;
 }
-.div18-cor-produto{
+.div1-cor-produto{
     width: 40px;
     height: 40px;
     margin-top: 20px;
-    background-color: #5f97e2b4;
+    background-color: #000000b4;
     border-radius: 100px;
     cursor: pointer;
 }
@@ -2049,13 +2036,24 @@ body{
     margin-top: 20px;
 }
 .button2{
-    width: 636px;
+    width: 668px;
     height: 48px;
     margin: 45px 0px 0px 32px;
     border: none;
     color: white;
     background-color: #000;
-    letter-spacing: 4px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    transition: all 0.4s ease;
+}
+.button2:hover{
+    color: white;
+    background-color: #c4c4c4c6;
+    transition: 0.4s;
 }
 .imagem-frete-produtos{
     width: 100vw;
@@ -2154,6 +2152,8 @@ body{
 .linhas-frete{
     width: 636px;
     margin: 20px 0px 0px 32px;
+    background-color: black;
+    border: 0.80px solid rgb(155, 155, 155);
 }
 .titulos-descricao-frete{
     width: 636px;
@@ -2191,3 +2191,286 @@ body{
     background-repeat: no-repeat;
 }
 
+/*IMAGENS PARA DESCRIÇÕES -----------------------------------------------------------------------------------------------------------*/
+
+.img-1-3{
+    width: 345px;
+    height: 720px;
+    background-image: url(img/Jaqueta\ Off-White.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.img-1-4{
+    width: 345px;
+    height: 720px;
+    background-image: url(img/1.1-jaqueta-off-white.jpg);
+    background-position: 70% center;
+    background-size: cover;
+}
+.img-2-2-produto{
+    width: 700px;
+    height: 928px;
+    background-image: url(/img/1.2-jaqueta-off-withe.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.div2-cor-produto{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #fff7cfb4;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+
+.img-1-5{
+    width: 345px;
+    height: 720px;
+    background-image: url(img/Sobretudo\ Bege.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.img-1-6{
+    width: 345px;
+    height: 720px;
+    background-image: url(img/1.1-sobretudo-bege.jpg);
+    background-position: 100% center;
+    background-size: cover;
+}
+.img-2-3-produto{
+    width: 700px;
+    height: 928px;
+    background-image: url(/img/1.2-sobretudo-bege.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.div3-cor-produto{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #9e9c7fb4;
+    border-radius: 100px;
+    cursor: pointer;
+}
+/*--NAO FIZ AINDA------------------------------------------------------------------------------------------------------------------------------------*/
+
+.img-1-7{
+    width: 345px;
+    height: 720px;
+    background-image: url(img/Sobretudo\ Bege.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.img-1-8{
+    width: 345px;
+    height: 720px;
+    background-image: url(img/1.1-sobretudo-bege.jpg);
+    background-position: 100% center;
+    background-size: cover;
+}
+.img-2-4-produto{
+    width: 700px;
+    height: 928px;
+    background-image: url(/img/1.2-sobretudo-bege.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.div4-cor-produto{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #000000b4;
+    border-radius: 100px;
+    cursor: pointer;
+}
+/*---NAO FIZ AINDA-----------------------------------------------------------------------------------------------------------------------------------*/
+
+.img-1-9{
+    width: 345px;
+    height: 720px;
+    background-image: url(img/Sobretudo\ Bege.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.img-1-10{
+    width: 345px;
+    height: 720px;
+    background-image: url(img/1.1-sobretudo-bege.jpg);
+    background-position: 100% center;
+    background-size: cover;
+}
+.img-2-5-produto{
+    width: 700px;
+    height: 928px;
+    background-image: url(/img/1.2-sobretudo-bege.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.div5-cor-produto{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #000000b4;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+/*-------NAO FIZ AINDA-------------------------------------------------------------------------------------------------------------------------------*/
+
+.img-1-11{
+    width: 345px;
+    height: 720px;
+    background-image: url(img/Sobretudo\ Bege.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.img-1-12{
+    width: 345px;
+    height: 720px;
+    background-image: url(img/1.1-sobretudo-bege.jpg);
+    background-position: 100% center;
+    background-size: cover;
+}
+.img-2-6-produto{
+    width: 700px;
+    height: 928px;
+    background-image: url(/img/1.2-sobretudo-bege.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.div6-cor-produto{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #000000b4;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+/*---NAO FIZ AINDA-----------------------------------------------------------------------------------------------------------------------------------*/
+
+.img-1-13{
+    width: 345px;
+    height: 720px;
+    background-image: url(img/Sobretudo\ Bege.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.img-1-14{
+    width: 345px;
+    height: 720px;
+    background-image: url(img/1.1-sobretudo-bege.jpg);
+    background-position: 100% center;
+    background-size: cover;
+}
+.img-2-7-produto{
+    width: 700px;
+    height: 928px;
+    background-image: url(/img/1.2-sobretudo-bege.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.div7-cor-produto{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #000000b4;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+
+.img-1-15{
+    width: 345px;
+    height: 720px;
+    background-image: url(img/Sobretudo\ Listrado.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.img-1-16{
+    width: 345px;
+    height: 720px;
+    background-image: url(img/1.1-sobretudo-listrado.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.img-2-8-produto{
+    width: 700px;
+    height: 928px;
+    background-image: url(/img/1.2-sobretudo-listrado.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.div8-cor-produto{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #616d56b4;
+    border-radius: 100px;
+    cursor: pointer;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+
+.img-1-17{
+    width: 345px;
+    height: 720px;
+    background-image: url(img/Sobretudo\ Preto.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.img-1-18{
+    width: 345px;
+    height: 720px;
+    background-image: url(img/1.1-sobretudo-preto.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.img-2-9-produto{
+    width: 700px;
+    height: 928px;
+    background-image: url(/img/1.2-sobretudo-preto.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.div9-cor-produto{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #000000b4;
+    border-radius: 100px;
+    cursor: pointer;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+
+.img-1-19{
+    width: 345px;
+    height: 720px;
+    background-image: url(img/Sobretudo-Verde.jpg);
+    background-position: 5% center;
+    background-size: cover;
+}
+.img-1-20{
+    width: 345px;
+    height: 720px;
+    background-image: url(img/1.1-sobretudo-verde.jpg);
+    background-position: 36% center;
+    background-size: cover;
+}
+.img-2-10-produto{
+    width: 700px;
+    height: 928px;
+    background-image: url(/img/1.2-sobretudo-verde.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.div10-cor-produto{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #6d826db4;
+    border-radius: 100px;
+    cursor: pointer;
+}

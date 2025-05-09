@@ -3,71 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
-<body>
-    <div className="descricao">
-        <div className="imgs-produto">
-            <div className="img-1-produto">
-                <div className="img-1-51"></div>
-                <div className="img-1-52"></div>
+<body class="descricao-produtos">
+
+    <header class="header">
+        <a href="/index.html"><img class="logo-header" src="" alt=""></a>
+        <nav class="opcoes-header">
+            <div class="opcoes-1">novidades</div>
+            <div class="opcoes-2">produtos</div>
+            <div class="opcoes-3">sobre nós</div>
+            <div class="opcoes-4">coleções</div>
+            <div class="opcoes-5">bazar</div>
+        </nav>
+        <div class="pesquisa-login-carrinho">
+            <div class="lupa"></div>
+            <div class="carrinho"></div>
+            <a href="/cadastro.html"><div class="login"></div></a>
+        </div>
+    </header>
+
+    <div class="descricao">
+        <div class="imgs-produto">
+            <div class="img-1-produto">
+                <div class="img-1-3"></div>
+                <div class="img-1-4"></div>
             </div>
 
-            <div className="imagem-frete-produtos"></div>
+            <div class="imagem-frete-produtos"></div>
         </div>
 
-        <div className="descricao-escrita-produto">
-            <h1 className="titulo-produto">Jaqueta Off Withe</h1>
-            <h1 className="ref-produto">Jaqueta | Alfaiataria | Ref: 204436290</h1>
-            <div className="div-avaliacao-produto">
-                <div className="avaliacao-produto" >
-                <img className="estrela-produto" src="/src/image/estrela.png" alt="" />
-                <img className="estrela-produto"src="/src/image/estrela.png" alt="" />
-                <img className="estrela-produto"src="/src/image/estrela.png" alt="" />
-                <img className="estrela-produto"src="/src/image/estrela.png" alt="" />
-                <img className="estrela-produto" src="/src/image/estrela-2.png" alt="" />
-                </div>
-
-                <div className="avaliacao2-produto">4,2 (1.100 Avaliações)</div>
-            </div>
-            <div className="precos-produto">
-                <h1 className="preco-produto">R$110,00</h1>
-                <h1 className="preco2-produto">R$200,00</h1>
+        <div class="descricao-escrita-produto">
+            <h1 class="ref-produto">ref: 2023990</h1>
+            <h1 class="titulo-produto">Jaqueta Off White</h1>
+        
+            <div class="precos-produto">
+                <h1 class="preco-produto">R$160,00</h1>
+                <h1 class="preco2-produto">R$280,00</h1>
             </div>
 
-            <h1 className="titulo-descricao2-produto">Descrição :</h1>
+            <h1 class="titulo-descricao2-produto">Descrição :</h1>
 
-            <div className="descricao3-produto">
+            <div class="descricao3-produto">
             Conjunto de anéis em prata 925 com design delicado e sofisticado. A peça combina a qualidade da prata de alta durabilidade com um design moderno e atemporal, perfeito para quem busca elegância discreta. Cada anel pode ser usado individualmente ou em conjunto.
             </div>
 
-            <div className="titulo-tamanhos">Tamanhos:</div>
+            <div class="titulo-tamanhos">Tamanhos</div>
 
-            <div className="div-tamanhos">
-                <div className="tamanhos">PP</div>
-                <div className="tamanhos">P</div>
-                <div className="tamanhos">M</div>
-                <div className="tamanhos">G</div>
-                <div className="tamanhos">GG</div>
-                <div className="tamanhos">XG</div>
-                <div className="tamanhos">XGG</div>
-                <div className="tamanhos">EG</div>
-                <div className="tamanhos">EGG</div>
+            <div class="div-tamanhos">
+                <div class="tamanhos">PP</div>
+                <div class="tamanhos">P</div>
+                <div class="tamanhos">M</div>
+                <div class="tamanhos">G</div>
+                <div class="tamanhos">GG</div>
+                <div class="tamanhos">XG</div>
+                <div class="tamanhos">XGG</div>
+                <div class="tamanhos">EG</div>
+                <div class="tamanhos">EGG</div>
             </div>
 
-            <div className="titulos-descricao2">
+            <div class="titulos-descricao2">
 
-            <h1 className="titulo-cor-descricao2">Cor</h1>
+            <h1 class="titulo-cor-descricao2">Cor</h1>
 
-            <label className="titulo-cor-descricao2" htmlFor="quantidade">Quantidade</label>
+            <label class="titulo-cor-descricao2" htmlFor="quantidade">Quantidade</label>
 
             </div>
 
-            <div className="cor-quantidade-produto">
+            <div class="cor-quantidade-produto">
 
-            <div className="div19-cor-produto"></div>
+            <div class="div2-cor-produto"></div>
     
-            <select className="quantidade-produto" id="quantidade" name="quantidade">
+            <select class="quantidade-produto" id="quantidade" name="quantidade">
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -75,39 +92,71 @@
             </select>
         </div>
 
-            <button className="button2">Adicione ao Carrinho</button>
+            <button class="button2">Adicione ao Carrinho</button>
         </div>
     </div>
 
         
 
-        <div className="imagem-frete-produtos">
-            <div className="img-2-25-produto"></div>
-            <div className="frete">
-                <div className="titulo-frete">Entrega</div>
-                <div className="subtitulo-frete">Consulte o prazo e o valor do frete</div>
-                <div className="input-button-frete">
-                <input className="input-frete" type="text" placeholder="Digite seu cep" />
-                <button className="button-frete">Consultar</button>
+        <div class="imagem-frete-produtos">
+            <div class="img-2-2-produto"></div>
+            <div class="frete">
+                <div class="titulo-frete">Entrega</div>
+                <div class="subtitulo-frete">Consulte o prazo e o valor do frete</div>
+                <div class="input-button-frete">
+                <input class="input-frete" type="text" placeholder="Digite seu cep" />
+                <button class="button-frete">Consultar</button>
                 </div>
                 
-                <div className="pesquisa-para-frete">Não sei meu CEP</div>
-                <div className="vendedor-frete">Produto vendido e entregue por Eclat Boutique</div>
-                <hr className="linhas-frete" />
-                <div className="titulos-descricao-frete">Entrega Rápida</div>
-                <div className="textos-frete">Receba seu pedido em até 48 horas, verifique o tempo estimado para o seu Cep.</div>
-                <hr className="linhas-frete" />
-                <div className="titulos-descricao-frete">Frete Grátis</div>
-                <div className="textos-frete">Em compras à partir de R$ 400,00.</div>
-                <hr className="linhas-frete" />
-                <div className="titulos-descricao-frete">Troca e Devolução</div>
-                <div className="textos-frete">Devolução é gratuita, assim que é solicitado a devolução é gerado um codigo do correio. </div>
-                <hr className="linhas-frete" />
-                <div className="titulos-descricao-frete">Composição</div>
-                <div className="textos-frete">90% algodão 10% elastano</div>
+                <div class="pesquisa-para-frete">Não sei meu CEP</div>
+                <div class="vendedor-frete">Produto vendido e entregue por Eclat Boutique</div>
+                <hr class="linhas-frete" />
+                <div class="titulos-descricao-frete">Entrega Rápida</div>
+                <div class="textos-frete">Receba seu pedido em até 48 horas, verifique o tempo estimado para o seu Cep.</div>
+                <hr class="linhas-frete" />
+                <div class="titulos-descricao-frete">Frete Grátis</div>
+                <div class="textos-frete">Em compras à partir de R$ 400,00.</div>
+                <hr class="linhas-frete" />
+                <div class="titulos-descricao-frete">Troca e Devolução</div>
+                <div class="textos-frete">Devolução é gratuita, assim que é solicitado a devolução é gerado um codigo do correio. </div>
+                <hr class="linhas-frete" />
+                <div class="titulos-descricao-frete">Composição</div>
+                <div class="textos-frete">90% algodão 10% elastano.</div>
             </div>
         </div>
-            
-            <div className="tabela-tamanhos"></div>
+             <footer class="footer">
+        <div class="div-footer">
+            <div class="logo-informacoes-footer"></div>
+            <div class="informacoes-footer">
+                <div class="titulo-informacoes-footer">informações</div>
+                <div class="informacoes">meus pedidos</div>
+                <div class="informacoes">trabalhe conosco</div>
+                <div class="informacoes">segurança</div>
+                <div class="informacoes">sobre nós</div>
+                <div class="informacoes">fale conosco</div>
+            </div>
+            <div class="categorias-footer">
+                <div class="titulo-categorias-footer">categorias</div>
+                <div class="categorias">camisas</div>
+                <div class="categorias">vestidos</div>
+                <div class="categorias">calças</div>
+                <div class="categorias">bolsas</div>
+                <div class="categorias">sapatos</div>
+            </div>
+            <div class="contato-footer">
+                <div class="titulo-contato-footer">contatos</div>
+                <div class="email-footer">gmail: vitoriagaara@gmail.com</div>
+                <div class="telefone-footer">telefone: (85) 9732-3646</div>
+                <div class="rede-sociais-footer">
+                    <div class="facebook"></div>
+                    <div class="instagram"></div>
+                    <div class="pinterest"></div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="donos-site"> © Maria Vitória e Iago Castro</div>
+    
+        </footer>
 </body>
 </html>
