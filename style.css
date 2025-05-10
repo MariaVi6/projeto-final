@@ -23,9 +23,16 @@ body{
     z-index: 1000; 
     background-color: white;
 }
+a{
+    border: none;
+}
 .logo-header{
     width: 310px;
     height: 60px;
+    border: none;
+    background-image: url(/img/logo-eclac-boutique.svg);
+    background-position: center;
+    background-size: cover;
 }
 .opcoes-header{
     width: 880px;
@@ -648,7 +655,7 @@ body{
 .card-13{
     width: 300px;
     height: 340px;
-    background-image: url(/img/pexels-cottonbro-5740815.jpg);
+    background-image: url(/img/tenis-esportivo-rosa.jpg);
     background-position: left;
     background-size: cover;
     box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
@@ -1431,7 +1438,7 @@ body{
     transform: rotate(45deg);
 }
 
-/*PRODUTOS ---------------------------------------------------------------------------------------------*/
+/*PRODUTOS --------------------------------------------------------------------------------------------------------------------*/
 
 .produtos{
     width: 1000px;
@@ -2254,26 +2261,26 @@ body{
     border-radius: 100px;
     cursor: pointer;
 }
-/*--NAO FIZ AINDA------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
 
 .img-1-7{
     width: 345px;
     height: 720px;
-    background-image: url(img/Sobretudo\ Bege.jpg);
+    background-image: url(img/Crooped-vermelho.jpg);
     background-position: center;
     background-size: cover;
 }
 .img-1-8{
     width: 345px;
     height: 720px;
-    background-image: url(img/1.1-sobretudo-bege.jpg);
+    background-image: url(img/1.1-crooped-vermelho.jpg);
     background-position: 100% center;
     background-size: cover;
 }
 .img-2-4-produto{
     width: 700px;
     height: 928px;
-    background-image: url(/img/1.2-sobretudo-bege.jpg);
+    background-image: url(/img/1.2-crooped-vermelho.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -2281,30 +2288,30 @@ body{
     width: 40px;
     height: 40px;
     margin-top: 20px;
-    background-color: #000000b4;
+    background-color: #b20000b4;
     border-radius: 100px;
     cursor: pointer;
 }
-/*---NAO FIZ AINDA-----------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
 
 .img-1-9{
     width: 345px;
     height: 720px;
-    background-image: url(img/Sobretudo\ Bege.jpg);
+    background-image: url(img/tenis-branco-.jpg);
     background-position: center;
     background-size: cover;
 }
 .img-1-10{
     width: 345px;
     height: 720px;
-    background-image: url(img/1.1-sobretudo-bege.jpg);
-    background-position: 100% center;
+    background-image: url(img/1.1-tenis-branco.jpg);
+    background-position: center;
     background-size: cover;
 }
 .img-2-5-produto{
     width: 700px;
     height: 928px;
-    background-image: url(/img/1.2-sobretudo-bege.jpg);
+    background-image: url(/img/1.2-tenis-branco.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -2312,31 +2319,31 @@ body{
     width: 40px;
     height: 40px;
     margin-top: 20px;
-    background-color: #000000b4;
+    background-color: #b1b1b1b4;
     border-radius: 100px;
     cursor: pointer;
 }
 
-/*-------NAO FIZ AINDA-------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
 
 .img-1-11{
     width: 345px;
     height: 720px;
-    background-image: url(img/Sobretudo\ Bege.jpg);
-    background-position: center;
+    background-image: url(img/Calça-jeans-coraçao.jpg);
+    background-position: 60% center;
     background-size: cover;
 }
 .img-1-12{
     width: 345px;
     height: 720px;
-    background-image: url(img/1.1-sobretudo-bege.jpg);
+    background-image: url(img/1.1-calca-jeans.jpg);
     background-position: 100% center;
     background-size: cover;
 }
 .img-2-6-produto{
     width: 700px;
     height: 928px;
-    background-image: url(/img/1.2-sobretudo-bege.jpg);
+    background-image: url(/img/1.2-calca-jeans.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -2344,31 +2351,31 @@ body{
     width: 40px;
     height: 40px;
     margin-top: 20px;
-    background-color: #000000b4;
+    background-color: #8aa7d9b4;
     border-radius: 100px;
     cursor: pointer;
 }
 
-/*---NAO FIZ AINDA-----------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
 
 .img-1-13{
     width: 345px;
     height: 720px;
-    background-image: url(img/Sobretudo\ Bege.jpg);
+    background-image: url(img/Jaqueta-jeans-sem-manga.jpg);
     background-position: center;
     background-size: cover;
 }
 .img-1-14{
     width: 345px;
     height: 720px;
-    background-image: url(img/1.1-sobretudo-bege.jpg);
-    background-position: 100% center;
+    background-image: url(img/1.1-jaqueta-jeans-sem-manga.jpg);
+    background-position: center;
     background-size: cover;
 }
 .img-2-7-produto{
     width: 700px;
     height: 928px;
-    background-image: url(/img/1.2-sobretudo-bege.jpg);
+    background-image: url(/img/1.2-jaqueta-sem-manga-jeans.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -2376,7 +2383,7 @@ body{
     width: 40px;
     height: 40px;
     margin-top: 20px;
-    background-color: #000000b4;
+    background-color: #2e5cabb4;
     border-radius: 100px;
     cursor: pointer;
 }
@@ -2386,29 +2393,29 @@ body{
 .img-1-15{
     width: 345px;
     height: 720px;
-    background-image: url(img/Sobretudo\ Listrado.jpg);
-    background-position: center;
+    background-image: url(img/Chapeu-tenis.jpg);
+    background-position: 30% center;
     background-size: cover;
 }
 .img-1-16{
     width: 345px;
     height: 720px;
-    background-image: url(img/1.1-sobretudo-listrado.jpg);
-    background-position: center;
+    background-image: url(img/1.1-chapeu-tenis.jpg);
+    background-position: 50% center;
     background-size: cover;
 }
 .img-2-8-produto{
     width: 700px;
     height: 928px;
-    background-image: url(/img/1.2-sobretudo-listrado.jpg);
+    background-image: url(/img/1.2-chapel-tenis.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: 60% center;
 }
 .div8-cor-produto{
     width: 40px;
     height: 40px;
     margin-top: 20px;
-    background-color: #616d56b4;
+    background-color: #a80019b4;
     border-radius: 100px;
     cursor: pointer;
 }
@@ -2417,25 +2424,150 @@ body{
 .img-1-17{
     width: 345px;
     height: 720px;
-    background-image: url(img/Sobretudo\ Preto.jpg);
+    background-image: url(img/Tenis-esportivo-branco.jpg);
     background-position: center;
     background-size: cover;
 }
 .img-1-18{
     width: 345px;
     height: 720px;
+    background-image: url(img/1.2-tenis-esportivo-branco.jpg);
+    background-position: 40% center;
+    background-size: cover;
+}
+.img-2-9-produto{
+    width: 700px;
+    height: 928px;
+    background-image: url(/img/1.1-tenis-esportivo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.div9-cor-produto{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #9d9d9db4;
+    border-radius: 100px;
+    cursor: pointer;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+
+.img-1-19{
+    width: 345px;
+    height: 720px;
+    background-image: url(img/Vestido-azul-longo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.img-1-20{
+    width: 345px;
+    height: 720px;
+    background-image: url(img/1.1-vestido-azul-longo.jpg);
+    background-position: 36% bottom;
+    background-size: cover;
+}
+.img-2-10-produto{
+    width: 700px;
+    height: 928px;
+    background-image: url(/img/1-2-vestido-azul-longo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.div10-cor-produto{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #5a97e2b4;
+    border-radius: 100px;
+    cursor: pointer;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+
+.img-1-21-1{
+    width: 345px;
+    height: 720px;
+    background-image: url(img/tenis-esportivo-rosa.jpg);
+    background-position: 10% center;
+    background-size: cover;
+}
+.img-1-22-1{
+    width: 345px;
+    height: 720px;
+    background-image: url(img/1.1-tenis-esportivo-rosa.jpg);
+    background-position: 56% bottom;
+    background-size: 380%;
+    background-repeat: no-repeat;
+}
+.img-2-11-1-produto{
+    width: 700px;
+    height: 928px;
+    background-image: url(/img/1.2-tenis-esportivo-rosa.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.div11-1-cor-produto{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #eac4dcb4;
+    border-radius: 100px;
+    cursor: pointer;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+
+.img-1-21{
+    width: 345px;
+    height: 720px;
+    background-image: url(img/Sobretudo\ Listrado.jpg);
+    background-position:  center;
+    background-size: cover;
+}
+.img-1-22{
+    width: 345px;
+    height: 720px;
+    background-image: url(img/1.1-sobretudo-listrado.jpg);
+    background-position: 56% center;
+    background-size: cover;
+}
+.img-2-11-produto{
+    width: 700px;
+    height: 928px;
+    background-image: url(/img/1.2-sobretudo-listrado.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.div11-cor-produto{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #6d826db4;
+    border-radius: 100px;
+    cursor: pointer;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+
+.img-1-23{
+    width: 345px;
+    height: 720px;
+    background-image: url(img/Sobretudo\ Preto.jpg);
+    background-position:center;
+    background-size: cover;
+}
+.img-1-24{
+    width: 345px;
+    height: 720px;
     background-image: url(img/1.1-sobretudo-preto.jpg);
     background-position: center;
     background-size: cover;
 }
-.img-2-9-produto{
+.img-2-12-produto{
     width: 700px;
     height: 928px;
     background-image: url(/img/1.2-sobretudo-preto.jpg);
     background-size: cover;
     background-position: center;
 }
-.div9-cor-produto{
+.div12-cor-produto{
     width: 40px;
     height: 40px;
     margin-top: 20px;
@@ -2445,32 +2577,283 @@ body{
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 
-.img-1-19{
+.img-1-25{
     width: 345px;
     height: 720px;
     background-image: url(img/Sobretudo-Verde.jpg);
     background-position: 5% center;
     background-size: cover;
 }
-.img-1-20{
+.img-1-26{
     width: 345px;
     height: 720px;
     background-image: url(img/1.1-sobretudo-verde.jpg);
     background-position: 36% center;
     background-size: cover;
 }
-.img-2-10-produto{
+.img-2-13-produto{
     width: 700px;
     height: 928px;
     background-image: url(/img/1.2-sobretudo-verde.jpg);
     background-size: cover;
     background-position: center;
 }
-.div10-cor-produto{
+.div13-cor-produto{
     width: 40px;
     height: 40px;
     margin-top: 20px;
     background-color: #6d826db4;
+    border-radius: 100px;
+    cursor: pointer;
+}
+/*----nao fiz ----------------------------------------------------------------------------------------------------------------------------------*/
+
+.img-1-27{
+    width: 345px;
+    height: 720px;
+    background-image: url(img/Sobretudo-Verde.jpg);
+    background-position: 5% center;
+    background-size: cover;
+}
+.img-1-28{
+    width: 345px;
+    height: 720px;
+    background-image: url(img/1.1-sobretudo-verde.jpg);
+    background-position: 36% center;
+    background-size: cover;
+}
+.img-2-14-produto{
+    width: 700px;
+    height: 928px;
+    background-image: url(/img/1.2-sobretudo-verde.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.div14-cor-produto{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #6d826db4;
+    border-radius: 100px;
+    cursor: pointer;
+}
+/*---- ----------------------------------------------------------------------------------------------------------------------------------*/
+
+.img-1-29{
+    width: 345px;
+    height: 720px;
+    background-image: url(img/1.1-brinco-coracao.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.img-1-30{
+    width: 345px;
+    height: 720px;
+    background-image: url(img/1.2-brinco-coracao.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.img-2-15-produto{
+    width: 700px;
+    height: 928px;
+    background-image: url(/img/Acessorios1-brinco.jpg);
+    background-size: cover;
+    background-position: top;
+}
+.div15-cor-produto{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #12195acb;
+    border-radius: 100px;
+    cursor: pointer;
+}
+/*---- ----------------------------------------------------------------------------------------------------------------------------------*/
+
+.img-1-31{
+    width: 345px;
+    height: 720px;
+    background-image: url(img/Acessorios2-colar.jpg);
+    background-position: bottom;
+    background-size: cover;
+}
+.img-1-32{
+    width: 345px;
+    height: 720px;
+    background-image: url(img/1.1-brinco-circulo-verde.jpg);
+    background-size: 300%; 
+    background-position: 56% 100%;
+    background-repeat: no-repeat;
+}
+.img-2-16-produto{
+    width: 700px;
+    height: 928px;
+    background-image: url(/img/1.2-colar-curculo-verde-neon.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+.div16-cor-produto{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #24a064;
+    border-radius: 100px;
+    cursor: pointer;
+}
+/*---- ----------------------------------------------------------------------------------------------------------------------------------*/
+
+.img-1-33{
+    width: 345px;
+    height: 720px;
+    background-image: url(img/Acessorios3-aneis.jpg);
+    background-position: bottom;
+    background-size: cover;
+}
+.img-1-34{
+    width: 345px;
+    height: 720px;
+    background-image: url(img/1.2-conjunto-de-aneis.jpg);
+    background-size: cover; 
+    background-position: 20% center;
+}
+.img-2-17-produto{
+    width: 700px;
+    height: 928px;
+    background-image: url(/img/Acessorios3-aneis.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+.div17-cor-produto{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #808080;
+    border-radius: 100px;
+    cursor: pointer;
+}
+/*---- ----------------------------------------------------------------------------------------------------------------------------------*/
+
+.img-1-35{
+    width: 345px;
+    height: 720px;
+    background-image: url(img/Anel\ Azul.jpg);
+    background-position: bottom;
+    background-size: cover;
+}
+.img-1-36{
+    width: 345px;
+    height: 720px;
+    background-image: url(img/1.1-anel-azul.jpg);
+    background-size: 290%; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.img-2-18-produto{
+    width: 700px;
+    height: 928px;
+    background-image: url(/img/1.2-anel-azul.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+.div18-cor-produto{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #244375;
+    border-radius: 100px;
+    cursor: pointer;
+}
+/*---- ----------------------------------------------------------------------------------------------------------------------------------*/
+
+.img-1-37{
+    width: 345px;
+    height: 720px;
+    background-image: url(img/Colar\ Verde.jpg);
+    background-position: bottom;
+    background-size: cover;
+}
+.img-1-38{
+    width: 345px;
+    height: 720px;
+    background-image: url(img/1.1-colar-verde.jpg);
+    background-size: cover; 
+    background-position: 90% center;
+}
+.img-2-19-produto{
+    width: 700px;
+    height: 928px;
+    background-image: url(/img/1.2-colar-verde.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+.div19-cor-produto{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #49aea9;
+    border-radius: 100px;
+    cursor: pointer;
+}
+/*---- ----------------------------------------------------------------------------------------------------------------------------------*/
+
+.img-1-39{
+    width: 345px;
+    height: 720px;
+    background-image: url(img/Brinco\ Verde.jpg);
+    background-position: bottom;
+    background-size: cover;
+}
+.img-1-40{
+    width: 345px;
+    height: 720px;
+    background-image: url(img/1.2-brinco-verde.jpg);
+    background-size: 300%; 
+    background-position: 6% 50%;
+    background-repeat: no-repeat;
+}
+.img-2-20-produto{
+    width: 700px;
+    height: 928px;
+    background-image: url(/img/1.1-brinco-verde.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+.div20-cor-produto{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #49aea9;
+    border-radius: 100px;
+    cursor: pointer;
+}
+/*---- ----------------------------------------------------------------------------------------------------------------------------------*/
+
+.img-1-41{
+    width: 345px;
+    height: 720px;
+    background-image: url(img/Bolsa\ de\ Mão.jpg);
+    background-position: bottom;
+    background-size: cover;
+}
+.img-1-42{
+    width: 345px;
+    height: 720px;
+    background-image: url(img/1.1-bolsa-de-mao.jpg);
+    background-size: cover; 
+    background-position: 56% center;
+}
+.img-2-21-produto{
+    width: 700px;
+    height: 928px;
+    background-image: url(/img/1.2-bolsa-de-mao.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+.div21-cor-produto{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #49aea9;
     border-radius: 100px;
     cursor: pointer;
 }
